@@ -2,6 +2,13 @@
 'use strict';
 
 
-console.log("Hello, World!");
+console.log("Hello, from ReScript");
 
+function sum(x, y) {
+  return x + y | 0;
+}
+
+console.log(2);
+
+exports.sum = sum;
 /*  Not a pure module */
